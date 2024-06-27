@@ -9,6 +9,6 @@ import (
 
 func main() {
 	app.Run("vstart", func(w *unison.Window) {
-		vstart.New().Layout(w.Content())
+		w.Content().AddChild(vstart.New().Layout())
 	})
 }
