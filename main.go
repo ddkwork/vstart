@@ -1,8 +1,6 @@
 package main
 
 import (
-	"vstart"
-
 	"github.com/ddkwork/app"
 	"github.com/richardwilkes/unison"
 )
